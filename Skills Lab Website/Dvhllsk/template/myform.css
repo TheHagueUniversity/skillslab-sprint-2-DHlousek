@@ -1,0 +1,48 @@
+textarea {
+    max-width: 100%;
+    width: 100%;
+    padding: 16px;
+    border: none;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    color: #999;
+    background-color: #eee;
+    font-size: 14px;
+    box-sizing: border-box;
+    min-height: 150px;
+}
+label {
+    display: none;
+}
+input {
+    max-width: 100%;
+    width: 100%;
+    background-color: #eee;
+    font-size: 14px;
+    box-sizing: border-box;
+    min-height: 48px;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    color: #999;
+    border: 0px solid #ccc;
+    padding: 16px;
+    margin-bottom: 3%;
+}
+form div:nth-of-type(2n+1) {
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+}
+form div:nth-of-type(2n+2) {
+    width: 50%;
+    float: left;
+}
+form div:nth-of-type(6) {
+    width: 100%;
+}
+.clear {
+    clear: both;
+    height: 1px;
+}

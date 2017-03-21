@@ -1,0 +1,182 @@
+/* body */
+body {
+    background: rgb(22, 102, 244);
+    background: linear-gradient(to bottom, rgb(22, 102, 244) 0%,rgba(255,255,255,1) 100%);
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333;
+}
+a {
+    color: #000;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+    font-weight: 600;
+}
+p {
+    margin-bottom: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #1968f4;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 2.2em;
+    line-height: initial;
+}
+img {
+    max-width: 100%;
+}
+
+/* container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    background: white;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.51);
+}
+
+/* width */
+.span3 {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+.span6 {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+.span9 {
+    width: 75%;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+.span12 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* header */
+header {
+    margin-top: 10px;
+}
+header .container {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-radius: 5px 5px 0 0;
+}
+header .span6:first-child {
+    text-align: center;
+}
+header p {
+    line-height: 102px;
+    font-size: 1.9em;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.42);
+}
+
+/* nav */
+nav .container {
+    padding: 10px 0;
+}
+ul#nav {
+    list-style: none;
+    background: #bfbfbf;
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: inline-block;
+}
+li a {
+    padding: 15px 10px;
+    color: #0c0c0c;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 50px;
+}
+li.active a, li a:hover {
+    color: red;
+}
+.social-icons {
+    position: absolute;
+    right: 6px;
+    top: 15px;
+}
+.social-icons a:nth-of-type(1) img, .social-icons a:nth-of-type(2) img, .social-icons a:nth-of-type(3) img {
+    position: relative;
+    top: -5px;
+}
+
+/* footer */
+footer {
+    margin-bottom: 10px;
+}
+footer p {
+    font-size: 0.8em;
+    text-align: center;
+}
+footer .container {
+    padding: 40px;
+    background: #aac7fb;
+    border-top: 3px solid #80aaf6;
+}
+/* title */
+p.title-form {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #1968f4;
+}
+
+/* button */
+button {
+    color: #004595;
+    background: rgba(0, 0, 0, 0.05);
+    border: 2px solid transparent;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+button:hover {
+    color: #ffffff;
+    background: rgb(202, 220, 253);
+    border: 2px solid rgba(27, 105, 244, 0.33);
+    cursor: pointer;
+    padding: 10px 20px;
+}
+button:focus, button:click {
+    color: #ffffff;
+    background: rgb(202, 220, 253);
+    border: 2px solid rgba(27, 105, 244, 1);
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+/* asie */
+figure {
+    text-align: center;
+}
+
+/* content */
+article li {
+    display: list-item;
+}
+article {
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+    padding-bottom: 10px;
+}
